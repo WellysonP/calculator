@@ -1,5 +1,5 @@
 class Memory {
-  String _value = "0";
+  String _value = "";
 
   void applyCommand(String command) {
     if (command == "AC") {
@@ -10,7 +10,7 @@ class Memory {
   }
 
   _allClear() {
-    _value = "0";
+    _value = "";
   }
 
   String get value {
